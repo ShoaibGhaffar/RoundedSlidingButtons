@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22835A7617E965D3005EE78D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22835A7517E965D3005EE78D /* UIKit.framework */; };
+		22835A7817E965D3005EE78D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22835A7717E965D3005EE78D /* Foundation.framework */; };
+		22835A7A17E965D3005EE78D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22835A7917E965D3005EE78D /* CoreGraphics.framework */; };
+		22835A8017E965D3005EE78D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22835A7E17E965D3005EE78D /* InfoPlist.strings */; };
+		22835A8217E965D3005EE78D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22835A8117E965D3005EE78D /* main.m */; };
+		22835A8617E965D4005EE78D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22835A8517E965D4005EE78D /* AppDelegate.m */; };
+		22835A8817E965D4005EE78D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22835A8717E965D4005EE78D /* Default.png */; };
+		22835A8A17E965D4005EE78D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22835A8917E965D4005EE78D /* Default@2x.png */; };
+		22835A8C17E965D4005EE78D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22835A8B17E965D4005EE78D /* Default-568h@2x.png */; };
+		22835A8F17E965D4005EE78D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22835A8E17E965D4005EE78D /* ViewController.m */; };
+		22835A9217E965D4005EE78D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22835A9017E965D4005EE78D /* ViewController.xib */; };
+		22835AA017E966CB005EE78D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22835A9917E966CB005EE78D /* button.png */; };
+		22835AA117E966CB005EE78D /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22835A9A17E966CB005EE78D /* button@2x.png */; };
+		22835AA217E966CB005EE78D /* Icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 22835A9B17E966CB005EE78D /* Icon144.png */; };
+		22835AA317E966CB005EE78D /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 22835A9C17E966CB005EE78D /* Icon72.png */; };
+		22835AAC17E96B43005EE78D /* RoundedSlidingButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 22835AAB17E96B43005EE78D /* RoundedSlidingButtons.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22835A7217E965D3005EE78D /* RoundedSlidingButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedSlidingButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22835A7517E965D3005EE78D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22835A7717E965D3005EE78D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22835A7917E965D3005EE78D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22835A7D17E965D3005EE78D /* RoundedSlidingButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundedSlidingButtons-Info.plist"; sourceTree = "<group>"; };
+		22835A7F17E965D3005EE78D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22835A8117E965D3005EE78D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22835A8317E965D3005EE78D /* RoundedSlidingButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundedSlidingButtons-Prefix.pch"; sourceTree = "<group>"; };
+		22835A8417E965D4005EE78D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22835A8517E965D4005EE78D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22835A8717E965D4005EE78D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22835A8917E965D4005EE78D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22835A8B17E965D4005EE78D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22835A8D17E965D4005EE78D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22835A8E17E965D4005EE78D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22835A9117E965D4005EE78D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		22835A9917E966CB005EE78D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		22835A9A17E966CB005EE78D /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		22835A9B17E966CB005EE78D /* Icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon144.png; sourceTree = "<group>"; };
+		22835A9C17E966CB005EE78D /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
+		22835AAA17E96B43005EE78D /* RoundedSlidingButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedSlidingButtons.h; sourceTree = "<group>"; };
+		22835AAB17E96B43005EE78D /* RoundedSlidingButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedSlidingButtons.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22835A6F17E965D3005EE78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22835A7617E965D3005EE78D /* UIKit.framework in Frameworks */,
+				22835A7817E965D3005EE78D /* Foundation.framework in Frameworks */,
+				22835A7A17E965D3005EE78D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22835A6917E965D3005EE78D = {
+			isa = PBXGroup;
+			children = (
+				22835A7B17E965D3005EE78D /* RoundedSlidingButtons */,
+				22835A7417E965D3005EE78D /* Frameworks */,
+				22835A7317E965D3005EE78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22835A7317E965D3005EE78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22835A7217E965D3005EE78D /* RoundedSlidingButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22835A7417E965D3005EE78D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22835A7517E965D3005EE78D /* UIKit.framework */,
+				22835A7717E965D3005EE78D /* Foundation.framework */,
+				22835A7917E965D3005EE78D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22835A7B17E965D3005EE78D /* RoundedSlidingButtons */ = {
+			isa = PBXGroup;
+			children = (
+				22835A8417E965D4005EE78D /* AppDelegate.h */,
+				22835A8517E965D4005EE78D /* AppDelegate.m */,
+				22835A8D17E965D4005EE78D /* ViewController.h */,
+				22835A8E17E965D4005EE78D /* ViewController.m */,
+				22835A9017E965D4005EE78D /* ViewController.xib */,
+				22835AA917E96B43005EE78D /* RoundedSlidingButtonsView */,
+				22835A9817E966CB005EE78D /* Resources */,
+				22835A7C17E965D3005EE78D /* Supporting Files */,
+			);
+			path = RoundedSlidingButtons;
+			sourceTree = "<group>";
+		};
+		22835A7C17E965D3005EE78D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22835A7D17E965D3005EE78D /* RoundedSlidingButtons-Info.plist */,
+				22835A7E17E965D3005EE78D /* InfoPlist.strings */,
+				22835A8117E965D3005EE78D /* main.m */,
+				22835A8317E965D3005EE78D /* RoundedSlidingButtons-Prefix.pch */,
+				22835A8717E965D4005EE78D /* Default.png */,
+				22835A8917E965D4005EE78D /* Default@2x.png */,
+				22835A8B17E965D4005EE78D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22835A9817E966CB005EE78D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22835A9917E966CB005EE78D /* button.png */,
+				22835A9A17E966CB005EE78D /* button@2x.png */,
+				22835A9B17E966CB005EE78D /* Icon144.png */,
+				22835A9C17E966CB005EE78D /* Icon72.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22835AA917E96B43005EE78D /* RoundedSlidingButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				22835AAA17E96B43005EE78D /* RoundedSlidingButtons.h */,
+				22835AAB17E96B43005EE78D /* RoundedSlidingButtons.m */,
+			);
+			path = RoundedSlidingButtonsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22835A7117E965D3005EE78D /* RoundedSlidingButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22835A9517E965D4005EE78D /* Build configuration list for PBXNativeTarget "RoundedSlidingButtons" */;
+			buildPhases = (
+				22835A6E17E965D3005EE78D /* Sources */,
+				22835A6F17E965D3005EE78D /* Frameworks */,
+				22835A7017E965D3005EE78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedSlidingButtons;
+			productName = RoundedSlidingButtons;
+			productReference = 22835A7217E965D3005EE78D /* RoundedSlidingButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22835A6A17E965D3005EE78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shoaib Mac Mini";
+			};
+			buildConfigurationList = 22835A6D17E965D3005EE78D /* Build configuration list for PBXProject "RoundedSlidingButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22835A6917E965D3005EE78D;
+			productRefGroup = 22835A7317E965D3005EE78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22835A7117E965D3005EE78D /* RoundedSlidingButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22835A7017E965D3005EE78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22835A8017E965D3005EE78D /* InfoPlist.strings in Resources */,
+				22835A8817E965D4005EE78D /* Default.png in Resources */,
+				22835A8A17E965D4005EE78D /* Default@2x.png in Resources */,
+				22835A8C17E965D4005EE78D /* Default-568h@2x.png in Resources */,
+				22835A9217E965D4005EE78D /* ViewController.xib in Resources */,
+				22835AA017E966CB005EE78D /* button.png in Resources */,
+				22835AA117E966CB005EE78D /* button@2x.png in Resources */,
+				22835AA217E966CB005EE78D /* Icon144.png in Resources */,
+				22835AA317E966CB005EE78D /* Icon72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22835A6E17E965D3005EE78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22835A8217E965D3005EE78D /* main.m in Sources */,
+				22835A8617E965D4005EE78D /* AppDelegate.m in Sources */,
+				22835A8F17E965D4005EE78D /* ViewController.m in Sources */,
+				22835AAC17E96B43005EE78D /* RoundedSlidingButtons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22835A7E17E965D3005EE78D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22835A7F17E965D3005EE78D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22835A9017E965D4005EE78D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22835A9117E965D4005EE78D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22835A9317E965D4005EE78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22835A9417E965D4005EE78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22835A9617E965D4005EE78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedSlidingButtons/RoundedSlidingButtons-Prefix.pch";
+				INFOPLIST_FILE = "RoundedSlidingButtons/RoundedSlidingButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22835A9717E965D4005EE78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedSlidingButtons/RoundedSlidingButtons-Prefix.pch";
+				INFOPLIST_FILE = "RoundedSlidingButtons/RoundedSlidingButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22835A6D17E965D3005EE78D /* Build configuration list for PBXProject "RoundedSlidingButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22835A9317E965D4005EE78D /* Debug */,
+				22835A9417E965D4005EE78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22835A9517E965D4005EE78D /* Build configuration list for PBXNativeTarget "RoundedSlidingButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22835A9617E965D4005EE78D /* Debug */,
+				22835A9717E965D4005EE78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22835A6A17E965D3005EE78D /* Project object */;
+}
