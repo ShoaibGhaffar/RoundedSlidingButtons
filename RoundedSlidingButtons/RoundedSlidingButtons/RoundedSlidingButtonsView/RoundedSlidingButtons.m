@@ -292,6 +292,11 @@
         int newAng = 0;
         int currAng = buttonModel.angleCur;
         int onAng = buttonModel.angleOn;
+        //--
+        int newDiff = diff_;
+        
+        int dif = (onAng > currAng)? (onAng - currAng) : (currAng - onAng);
+        if (dif <= diff_) {newDiff = diff_ / 4;}
         
         if (on_)
         {
@@ -304,11 +309,11 @@
             if (!wait) {
                 switch (currRoundedSliderDirection_) {
                     case kRoundedSliderDirectionAntiClockWise:
-                        newAng = MIN(currAng + diff_, onAng);
+                        newAng = MIN(currAng + newDiff, onAng);
                         break;
 
                     case kRoundedSliderDirectionClockWise:
-                        newAng = MAX(currAng - diff_, onAng);
+                        newAng = MAX(currAng - newDiff, onAng);
                         break;
                         
                     default:
@@ -318,7 +323,7 @@
             else {
                 newAng = currAng;
             }
-        
+            
             if (newAng == onAng)
             {noOfBtnDoneAnim++;}
         }
@@ -326,11 +331,11 @@
         {
             switch (currRoundedSliderDirection_) {
                 case kRoundedSliderDirectionAntiClockWise:
-                    newAng = MAX(currAng - diff_, startingDeg_);
+                    newAng = MAX(currAng - newDiff, startingDeg_);
                     break;
                     
                 case kRoundedSliderDirectionClockWise:
-                    newAng = MIN(currAng + diff_, startingDeg_);
+                    newAng = MIN(currAng + newDiff, startingDeg_);
                     break;
                     
                 default:
@@ -342,6 +347,14 @@
         }
         
         buttonModel.angleTemp = newAng;
+        
+        float totalLenth = (onAng > startingDeg_)?(onAng - startingDeg_):(startingDeg_ - onAng);
+        float lenth = (startingDeg_ > newAng)?(startingDeg_ - newAng):(newAng - startingDeg_);
+        //--
+        float opacity =  lenth / totalLenth;
+        
+        [buttonModel.button setAlpha:opacity];
+        
         [self updateButtonPositionWithButtonModel:buttonModel];
     }
 

@@ -34,16 +34,10 @@
     
     UIButton* btn5 = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn5 setImage:[UIImage imageNamed:@"button.png"] forState:UIControlStateNormal];
-    
-    UIButton* btn6 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn6 setImage:[UIImage imageNamed:@"button.png"] forState:UIControlStateNormal];
-    
-    UIButton* btn7 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn7 setImage:[UIImage imageNamed:@"button.png"] forState:UIControlStateNormal];
 
     RoundedSlidingButtons* roundedSlidingButton;
     //--
-    roundedSlidingButton = [[RoundedSlidingButtons alloc] initWithDirection:kRoundedSliderDirectionAntiClockWise Radius:180 StartingDegree:0 Spacing:20 CenterPosition:CGPointMake(400, 400) ButtonSize:CGSizeMake(40, 40) ParentView:self.view Buttons:btn1, btn2, btn3, btn4, btn5, btn6, btn7, nil];
+    roundedSlidingButton = [[RoundedSlidingButtons alloc] initWithDirection:kRoundedSliderDirectionAntiClockWise Radius:180 StartingDegree:0 Spacing:20 CenterPosition:CGPointMake(400, 400) ButtonSize:CGSizeMake(40, 40) ParentView:self.view Buttons:btn1, btn2, btn3, btn4, btn5, nil];
 } //F.E.
 
 - (void)didReceiveMemoryWarning
